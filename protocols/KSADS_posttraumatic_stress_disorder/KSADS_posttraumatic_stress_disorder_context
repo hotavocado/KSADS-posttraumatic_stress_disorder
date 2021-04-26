@@ -1,0 +1,10 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "activity_path": "https://raw.githubusercontent.com/hotavocado/KSADS-posttraumatic_stress_disorder/master/activities/",
+        "posttraumatic_stress_disorder": {
+            "@id": "activity_path:posttraumatic_stress_disorder/posttraumatic_stress_disorder_schema",
+            "@type": "@id"
+        }
+    }
+}

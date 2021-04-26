@@ -1,0 +1,487 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/KSADS-posttraumatic_stress_disorder/master/activities/posttraumatic_stress_disorder/posttraumatic_stress_disorder_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "posttraumatic_stress_disorder_schema",
+    "skos:prefLabel": "Post Traumatic Stress Disorder",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "scoringLogic": {},
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "ptsd_title",
+                "isAbout": "ptsd_title",
+                "isVis": true
+            },
+            {
+                "variableName": "cptd0",
+                "isAbout": "cptd0",
+                "isVis": true
+            },
+            {
+                "variableName": "cptd3",
+                "isAbout": "cptd3",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd001a",
+                "isAbout": "dcptd001a",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd001b",
+                "isAbout": "dcptd001b",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd001c",
+                "isAbout": "dcptd001c",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd001d",
+                "isAbout": "dcptd001d",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd001e",
+                "isAbout": "dcptd001e",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd002",
+                "isAbout": "dcptd002",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd003",
+                "isAbout": "dcptd003",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd004",
+                "isAbout": "dcptd004",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd005",
+                "isAbout": "dcptd005",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd006",
+                "isAbout": "dcptd006",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd007",
+                "isAbout": "dcptd007",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd008",
+                "isAbout": "dcptd008",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd009",
+                "isAbout": "dcptd009",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd010",
+                "isAbout": "dcptd010",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd011",
+                "isAbout": "dcptd011",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd012",
+                "isAbout": "dcptd012",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd013",
+                "isAbout": "dcptd013",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd014",
+                "isAbout": "dcptd014",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd015",
+                "isAbout": "dcptd015",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd016",
+                "isAbout": "dcptd016",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd017",
+                "isAbout": "dcptd017",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd018",
+                "isAbout": "dcptd018",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd019",
+                "isAbout": "dcptd019",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd020",
+                "isAbout": "dcptd020",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd021",
+                "isAbout": "dcptd021",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd022",
+                "isAbout": "dcptd022",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd023",
+                "isAbout": "dcptd023",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd024",
+                "isAbout": "dcptd024",
+                "isVis": true
+            },
+            {
+                "variableName": "cptd12",
+                "isAbout": "cptd12",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd025",
+                "isAbout": "dcptd025",
+                "isVis": "cptd12 == '1'"
+            },
+            {
+                "variableName": "cptd14",
+                "isAbout": "cptd14",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd026",
+                "isAbout": "dcptd026",
+                "isVis": "cptd14 == '1'"
+            },
+            {
+                "variableName": "dcptd027",
+                "isAbout": "dcptd027",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd028",
+                "isAbout": "dcptd028",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd029",
+                "isAbout": "dcptd029",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd030",
+                "isAbout": "dcptd030",
+                "isVis": "dcptd029 == '1'"
+            },
+            {
+                "variableName": "dcptd031",
+                "isAbout": "dcptd031",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd032",
+                "isAbout": "dcptd032",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd035",
+                "isAbout": "dcptd035",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd039",
+                "isAbout": "dcptd039",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd040",
+                "isAbout": "dcptd040",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd044",
+                "isAbout": "dcptd044",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd048",
+                "isAbout": "dcptd048",
+                "isVis": true
+            },
+            {
+                "variableName": "cptd20",
+                "isAbout": "cptd20",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd051",
+                "isAbout": "dcptd051",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd052",
+                "isAbout": "dcptd052",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd053",
+                "isAbout": "dcptd053",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd054",
+                "isAbout": "dcptd054",
+                "isVis": "dcptd053 == '1'"
+            },
+            {
+                "variableName": "dcptd055",
+                "isAbout": "dcptd055",
+                "isVis": true
+            },
+            {
+                "variableName": "dcptd056",
+                "isAbout": "dcptd056",
+                "isVis": true
+            },
+            {
+                "variableName": "cptd25",
+                "isAbout": "cptd25",
+                "isVis": "dcptd056 == '1'"
+            },
+            {
+                "variableName": "dcptd057",
+                "isAbout": "dcptd057",
+                "isVis": "dcptd056 == '1'"
+            },
+            {
+                "variableName": "dcptd058",
+                "isAbout": "dcptd058",
+                "isVis": "dcptd056 == '1'"
+            },
+            {
+                "variableName": "dcptd059",
+                "isAbout": "dcptd059",
+                "isVis": "dcptd056 == '1'"
+            },
+            {
+                "variableName": "dcptd060",
+                "isAbout": "dcptd060",
+                "isVis": "dcptd056 == '1'"
+            },
+            {
+                "variableName": "dcptd061",
+                "isAbout": "dcptd061",
+                "isVis": "dcptd056 == '1'"
+            },
+            {
+                "variableName": "dcptd062",
+                "isAbout": "dcptd062",
+                "isVis": "dcptd056 == '1'"
+            },
+            {
+                "variableName": "dcptd064",
+                "isAbout": "dcptd064",
+                "isVis": "dcptd056 == '1'"
+            },
+            {
+                "variableName": "dcptd065",
+                "isAbout": "dcptd065",
+                "isVis": "dcptd056 == '1'"
+            },
+            {
+                "variableName": "dcptd066",
+                "isAbout": "dcptd066",
+                "isVis": "dcptd056 == '1'"
+            },
+            {
+                "variableName": "dcptd067",
+                "isAbout": "dcptd067",
+                "isVis": "dcptd056 == '1'"
+            },
+            {
+                "variableName": "dcptd068",
+                "isAbout": "dcptd068",
+                "isVis": "dcptd067 == '0'"
+            },
+            {
+                "variableName": "dcptd069",
+                "isAbout": "dcptd069",
+                "isVis": "dcptd056 == '1'"
+            },
+            {
+                "variableName": "cptd27",
+                "isAbout": "cptd27",
+                "isVis": "dcptd056 == '1'"
+            },
+            {
+                "variableName": "dcptd073",
+                "isAbout": "dcptd073",
+                "isVis": "dcptd072 .includes(3)"
+            },
+            {
+                "variableName": "dcptd074",
+                "isAbout": "dcptd074",
+                "isVis": "dcptd056 == '1'"
+            },
+            {
+                "variableName": "dcptd075",
+                "isAbout": "dcptd075",
+                "isVis": "dcptd074 == '1'"
+            },
+            {
+                "variableName": "dcptd076",
+                "isAbout": "dcptd076",
+                "isVis": "dcptd074 == '1'"
+            },
+            {
+                "variableName": "dcptd077",
+                "isAbout": "dcptd077",
+                "isVis": "dcptd074 == '1'"
+            },
+            {
+                "variableName": "dcptd078",
+                "isAbout": "dcptd078",
+                "isVis": "dcptd074 == '1'"
+            },
+            {
+                "variableName": "dcptd079",
+                "isAbout": "dcptd079",
+                "isVis": "dcptd074 == '1'"
+            },
+            {
+                "variableName": "dcptd080",
+                "isAbout": "dcptd080",
+                "isVis": "dcptd074 == '1'"
+            },
+            {
+                "variableName": "dcptd081",
+                "isAbout": "dcptd081",
+                "isVis": "dcptd074 == '1'"
+            },
+            {
+                "variableName": "dcptd082",
+                "isAbout": "dcptd082",
+                "isVis": "dcptd074 == '1'"
+            },
+            {
+                "variableName": "cptd_end",
+                "isAbout": "cptd_end",
+                "isVis": true
+            }
+        ],
+        "order": [
+            "ptsd_title",
+            "cptd0",
+            "cptd3",
+            "dcptd001a",
+            "dcptd001b",
+            "dcptd001c",
+            "dcptd001d",
+            "dcptd001e",
+            "dcptd002",
+            "dcptd003",
+            "dcptd004",
+            "dcptd005",
+            "dcptd006",
+            "dcptd007",
+            "dcptd008",
+            "dcptd009",
+            "dcptd010",
+            "dcptd011",
+            "dcptd012",
+            "dcptd013",
+            "dcptd014",
+            "dcptd015",
+            "dcptd016",
+            "dcptd017",
+            "dcptd018",
+            "dcptd019",
+            "dcptd020",
+            "dcptd021",
+            "dcptd022",
+            "dcptd023",
+            "dcptd024",
+            "cptd12",
+            "dcptd025",
+            "cptd14",
+            "dcptd026",
+            "dcptd027",
+            "dcptd028",
+            "dcptd029",
+            "dcptd030",
+            "dcptd031",
+            "dcptd032",
+            "dcptd035",
+            "dcptd039",
+            "dcptd040",
+            "dcptd044",
+            "dcptd048",
+            "cptd20",
+            "dcptd051",
+            "dcptd052",
+            "dcptd053",
+            "dcptd054",
+            "dcptd055",
+            "dcptd056",
+            "cptd25",
+            "dcptd057",
+            "dcptd058",
+            "dcptd059",
+            "dcptd060",
+            "dcptd061",
+            "dcptd062",
+            "dcptd064",
+            "dcptd065",
+            "dcptd066",
+            "dcptd067",
+            "dcptd068",
+            "dcptd069",
+            "cptd27",
+            "dcptd073",
+            "dcptd074",
+            "dcptd075",
+            "dcptd076",
+            "dcptd077",
+            "dcptd078",
+            "dcptd079",
+            "dcptd080",
+            "dcptd081",
+            "dcptd082",
+            "cptd_end"
+        ],
+        "shuffle": false
+    }
+}

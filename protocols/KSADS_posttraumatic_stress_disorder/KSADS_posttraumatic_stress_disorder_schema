@@ -1,0 +1,26 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/KSADS-posttraumatic_stress_disorder/master/protocols/KSADS_posttraumatic_stress_disorder/KSADS_posttraumatic_stress_disorder_context"
+    ],
+    "@type": "reproschema:Protocol",
+    "@id": "KSADS_posttraumatic_stress_disorder_schema",
+    "skos:prefLabel": "Posttraumatic Stress Disorder",
+    "schema:description": "Posttraumatic Stress Disorder section for KSADS interview",
+    "landingPage": "https://raw.githubusercontent.com/hotavocado/KSADS-posttraumatic_stress_disorder/master/protocols/KSADS_posttraumatic_stress_disorder/README.md",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "posttraumatic_stress_disorder",
+                "isAbout": "posttraumatic_stress_disorder",
+                "isVis": true
+            }
+        ],
+        "order": [
+            "posttraumatic_stress_disorder"
+        ],
+        "shuffle": false
+    }
+}
